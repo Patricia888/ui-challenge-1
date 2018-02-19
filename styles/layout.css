@@ -2,6 +2,7 @@
   display: block;
   background-color: grey;
   border: 1px solid;
+  text-align: center;
 }
 
 .desktop-view {
@@ -20,7 +21,10 @@
 
   .desktop-view {
     display: block;
-    background-color: cadetblue;
+    background-color: grey;
     border: 1px solid;
+    text-align: center;
+  }
+
   }
 }
