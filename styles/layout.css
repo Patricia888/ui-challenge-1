@@ -1,5 +1,7 @@
 .mobile-view {
   display: block;
+  background-color: grey;
+  border: 1px solid;
 }
 
 .desktop-view {
@@ -17,6 +19,8 @@
   }
 
   .desktop-view {
-    display: inline;
+    display: block;
+    background-color: cadetblue;
+    border: 1px solid;
   }
 }
