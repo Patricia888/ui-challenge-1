@@ -1,104 +1,21 @@
-/* desktop */
-#box960x100 {
-  width: 960px;
-  height: 100px;
-  border: 1px solid;
+.view {
+  position: relative;
+  margin: auto;
+  text-align: center;
 }
 
-aside {
-  width: 200px;
-  height: 600px;
-  border: 1px solid;
+header {
+  background-color: gray;
+  border:1px solid;
+  border-bottom: none;
 }
 
-#box380x200 {
-  width: 380px;
-  height: 200px;
-  border: 1px solid;
+footer {
+  background-color: gray;
+  border:1px solid;
+  border-top: none;
 }
 
-#box380x200second {
-  width: 380px;
-  height: 200px;
-  border: 1px solid;
-}
-
-
-
-main ul {
-  list-style: none;
-}
-
-main ul li {
-  width: 190px;
-  height: 250px;
-  border: 1px solid;
-  display: inline-block;
-  margin-right: -25px;
-}
-
-
-#box760x150 {
-  width: 760px;
-  height: 150px;
-  border: 1px solid;
-}
-
-/* mobile */
-
-#box480x75 {
-  width: 480px;
-  height: 75px;
-}
-
-#box480x150 {
-  width: 480px;
-  height: 150px;
-  border: 1px solid;
-}
-
-#box480x125 {
-  width: 480px;
-  height: 150px;
-  border: 1px solid;
-}
-
-#box240x250 {
-  width: 240px;
-  height: 250px;
-  border: 1px solid;
-  float: left;
-  background-color: grey;
-  
-}
-
-#box240x250second {
-  width: 240px;
-  height: 250px;
-  border: 1px solid;
-  float: right;
-  background-color: grey;
-  
-}
-
-#box240x250third {
-  width: 240px;
-  height: 250px;
-  border: 1px solid;
-  float: left;
-  background-color: grey;
-}
-
-#box240x250fourth {
-  width: 240px;
-  height: 250px;
-  border: 1px solid;
-  float: right;
-  background-color: grey;
-}
-
-#box480x80 {
-  width: 480px;
-  height: 80px;
-  
+div {
+  background-color: gray;
 }

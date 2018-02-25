@@ -1,63 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="UTF-8">
     <title>UI Challenge</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/normalize.css">
+
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/layout.css">
     <link rel="stylesheet" href="styles/modules.css">
   </head>
 
   <body>
-    <header>
-      <div class="mobile-view" id="box480x75"><p>a</p></div>
+    <section id="body-of-boxes">
 
-      <div class="desktop-view" id="box960x100"><p>a</p></div>
-    </header>
+        <header id="box-a">
+        <p class="view desktop">a</p>
+        <p class="view mobile">a</p>
+        </header>
 
-    <main>
-      <section class="mobile-view">
-          <div id="box480x150"><p>b</p></div>
-          <div id="box480x125"><p>c</p></div>
-          <div id="box480x125"><p>d</p></div> 
-      </section>
-      <section class="mobile-view">
-          <div id="box240x250"><p>e</p></div>
-          <div id="box240x250second"><p>f</p></div> 
-          <div id="box240x250third"><p>g</p></div> 
-          <div id="box240x250fourth"><p>h</p></div> 
-      </section>
+       <main>
+        
+          <div id="box-b">
+             <p class="view desktop">b</p>
+             <p class="view mobile">b</p>
+          </div>
+          <div id="box-c">
+              <p class="view desktop">c</p>
+              <p class="view mobile">c</p>
+         </div>
+          <div id="box-d">
+              <p class="view desktop">d</p>
+              <p class="view mobile">d</p>
+         </div>
+          <div id="box-e">
+              <p class="view desktop">e</p>
+              <p class="view mobile">e</p>
+         </div>
+          <div id="box-f">
+              <p class="view desktop">f</p>
+              <p class="view mobile">f</p>
+          </div>
+          <div id="box-g">
+              <p class="view desktop">g</p>
+              <p class="view mobile">g</p>
+          </div>
+          <div id="box-h">
+              <p class="view desktop">h</p>
+             <p class="view mobile">h</p>
+          </div>
 
-      <aside class="desktop-view">
-        <div id="box200x600"><p>b</p></div>
-      </aside>
-      <section class="desktop-view" class="middleTop">
-        <div id="box380x200"><p>c</p></div>
-        <div id="box380x200second"><p>d</p></div>
-      </section>
-      <section class="desktop-view">
-        <ul>
-          <li class="box190x250"><p>e</p></li>
-          <li class="box190x250"><p>f</p></li>
-          <li class="box190x250"><p>g</p></li>
-          <li class="box190x250"><p>h</p></li>
-        </ul>
-        </section>
-
-    </main>
+      </main>
+    </section>
 
     <footer>
-       <section class="mobile-view">
-         <div id="box480x80"><p>i</p></div>
-       </section>
-
-      <section class="desktop-view">
-         <div id="box760x150"><p>i</p></div>
-      </section>
-
+      <div id= "box-i">
+        <p class="view desktop">i</p>
+        <p class="view mobile">i</p>
+    </div>
     </footer>
-
   </body>
+
 </html>
