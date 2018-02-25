@@ -1,0 +1,21 @@
+.view {
+  position: relative;
+  margin: auto;
+  text-align: center;
+}
+
+header {
+  background-color: gray;
+  border:1px solid;
+  border-bottom: none;
+}
+
+footer {
+  background-color: gray;
+  border:1px solid;
+  border-top: none;
+}
+
+div {
+  background-color: gray;
+}
