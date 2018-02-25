@@ -10,10 +10,6 @@ body {
 /* mobile */
 
 @media screen and (max-width:800px) {
-  /* * {
-    background-color: lavender;
-  } */
-
   body {
     min-width:480px;
     max-width:768px;
